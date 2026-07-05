@@ -1,0 +1,27 @@
+---
+import { getStoriesFor, storyHref } from '../lib/stories';
+import type { Subcategory } from '../lib/categories';
+
+interface Props {
+  categorySlug: string;
+  subcategory: Subcategory;
+}
+
+const { categorySlug, subcategory } = Astro.props;
+const stories = (await getStoriesFor(categorySlug, subcategory.slug)).slice(0, 3);
+---
+
+<section class="subcategory-block">
+  <h2 class="subcategory-block__title">
+    <a href={`/${categorySlug}/${subcategory.slug}/`}>{subcategory.title}</a>
+  </h2>
+  <ul class="subcategory-block__list">
+    {stories.map((story) => (
+      <li>
+        <a href={storyHref(story)}>{story.data.title}</a>
+        <p>{story.data.description}</p>
+      </li>
+    ))}
+    {stories.length === 0 && <li class="subcategory-block__empty">No stories yet — check back soon.</li>}
+  </ul>
+</section>

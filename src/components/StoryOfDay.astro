@@ -1,0 +1,28 @@
+---
+import { getPublishedStories, storyHref } from '../lib/stories';
+
+const stories = await getPublishedStories();
+const pool = stories.map((story) => ({
+  title: story.data.title,
+  description: story.data.description,
+  image: story.data.image,
+  imageAlt: story.data.imageAlt,
+  href: storyHref(story),
+}));
+---
+
+{pool.length > 0 && (
+  <section class="story-of-day" id="story-of-day">
+    <p class="story-of-day__eyebrow">Story of the Day</p>
+    <div class="story-of-day__body">
+      <img class="story-of-day__image" id="sotd-image" src="" alt="" width="640" height="360" />
+      <div class="story-of-day__text">
+        <h2><a id="sotd-link" href="#"></a></h2>
+        <p id="sotd-description"></p>
+      </div>
+    </div>
+  </section>
+)}
+
+<script type="application/json" id="sotd-data" is:inline set:html={JSON.stringify(pool)} />
+<script src="../scripts/story-of-day.js"></script>

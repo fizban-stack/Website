@@ -1,0 +1,32 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const sections = (await getCollection('about')).sort((a, b) => a.data.order - b.data.order);
+const rendered = await Promise.all(sections.map((section) => render(section)));
+---
+
+<BaseLayout title="About" description="About James Wells: background, projects, achievements, and aspirations.">
+  <header class="profile-header">
+    <img
+      class="profile-header__image"
+      src="/images/profile/profile.webp"
+      alt="Portrait of James Wells"
+      width="180"
+      height="180"
+    />
+    <h1>James Wells</h1>
+  </header>
+
+  {sections.map((section, i) => {
+    const { Content } = rendered[i];
+    return (
+      <section class="profile-section">
+        <h2>{section.data.title}</h2>
+        <div class="prose">
+          <Content />
+        </div>
+      </section>
+    );
+  })}
+</BaseLayout>

@@ -1,0 +1,30 @@
+---
+import { getCollection, render } from 'astro:content';
+import SubcategoryBlock from './SubcategoryBlock.astro';
+import type { Category } from '../lib/categories';
+
+interface Props {
+  category: Category;
+}
+
+const { category } = Astro.props;
+
+const intros = await getCollection('categoryIntros');
+const intro = intros.find((entry) => entry.id === category.slug);
+const Content = intro ? (await render(intro)).Content : null;
+---
+
+<header class="page-header">
+  <h1>{category.title}</h1>
+  {Content && (
+    <div class="prose">
+      <Content />
+    </div>
+  )}
+</header>
+
+<div class="subcategory-grid">
+  {category.subcategories.map((sub) => (
+    <SubcategoryBlock categorySlug={category.slug} subcategory={sub} />
+  ))}
+</div>

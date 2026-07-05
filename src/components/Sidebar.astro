@@ -1,0 +1,60 @@
+---
+import { CATEGORIES } from '../lib/categories';
+
+const path = Astro.url.pathname;
+const isExact = (href: string) => path === href;
+const isWithin = (href: string) => path === href || path.startsWith(href);
+---
+
+<button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="sidebar">
+  <span class="sr-only">Toggle navigation</span>
+  <span class="nav-toggle__bar"></span>
+  <span class="nav-toggle__bar"></span>
+  <span class="nav-toggle__bar"></span>
+</button>
+
+<nav id="sidebar" class="sidebar" aria-label="Primary">
+  <a class="sidebar__brand" href="/">James Wells</a>
+  <ul class="sidebar__list">
+    <li><a href="/" class:list={[isExact('/') && 'is-active']}>Home</a></li>
+    <li><a href="/about/" class:list={[isWithin('/about/') && 'is-active']}>About</a></li>
+
+    {CATEGORIES.map((category) => (
+      <li class="sidebar__group">
+        <div class="sidebar__group-header">
+          <a
+            href={`/${category.slug}/`}
+            class="sidebar__group-link"
+            class:list={[isExact(`/${category.slug}/`) && 'is-active']}
+          >
+            {category.title}
+          </a>
+          <button
+            type="button"
+            class="sidebar__toggle"
+            aria-expanded="true"
+            aria-controls={`${category.slug}-submenu`}
+          >
+            <span class="sr-only">Toggle {category.title} submenu</span>
+          </button>
+        </div>
+        <ul id={`${category.slug}-submenu`} class="sidebar__submenu">
+          {category.subcategories.map((sub) => (
+            <li>
+              <a
+                href={`/${category.slug}/${sub.slug}/`}
+                class:list={[isWithin(`/${category.slug}/${sub.slug}/`) && 'is-active']}
+              >
+                {sub.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </li>
+    ))}
+
+    <li><a href="/contact/" class:list={[isWithin('/contact/') && 'is-active']}>Contact</a></li>
+  </ul>
+</nav>
+
+<script src="../scripts/sidebar.js"></script>

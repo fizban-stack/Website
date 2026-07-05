@@ -1,0 +1,16 @@
+- id: email
+  label: james@wellslabs.org
+  url: mailto:james@wellslabs.org
+  icon: "✉️"
+- id: linkedin
+  label: LinkedIn
+  url: https://www.linkedin.com/in/james-wells-122170164/
+  icon: "💼"
+- id: github
+  label: github.com/fizban-stack
+  url: https://github.com/fizban-stack/
+  icon: "🐙"
+- id: twitter
+  label: X (Twitter)
+  url: https://twitter.com/fizbanstack
+  icon: "🐦"

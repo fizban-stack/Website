@@ -1,0 +1,39 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublishedStories, parseStoryId } from '../../lib/stories';
+import { getCategory, getSubcategory } from '../../lib/categories';
+
+export async function getStaticPaths() {
+  const stories = await getPublishedStories();
+  return stories.map((story) => ({
+    params: { id: story.id },
+    props: { story },
+  }));
+}
+
+const { story } = Astro.props;
+const { Content } = await render(story);
+const { category: categorySlug, subcategory: subcategorySlug } = parseStoryId(story.id);
+const category = getCategory(categorySlug);
+const subcategory = getSubcategory(categorySlug, subcategorySlug);
+---
+
+<BaseLayout title={story.data.title} description={story.data.description}>
+  <article class="story">
+    <p class="page-header__eyebrow">
+      <a href={`/${categorySlug}/`}>{category?.title}</a> / <a href={`/${categorySlug}/${subcategorySlug}/`}>{subcategory?.title}</a>
+    </p>
+    <h1>{story.data.title}</h1>
+    <img
+      class="story__image"
+      src={story.data.image}
+      alt={story.data.imageAlt}
+      width="800"
+      height="450"
+    />
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

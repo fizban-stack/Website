@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const links = await getCollection('contactLinks');
+---
+
+<BaseLayout title="Contact" description="Ways to get in touch with James Wells.">
+  <h1>Contact</h1>
+  <p>Feel free to reach out through any of the channels below.</p>
+  <ul class="contact-list">
+    {links.map((link) => (
+      <li>
+        <a href={link.data.url}>
+          <span class="contact-list__icon" aria-hidden="true">{link.data.icon}</span>
+          {link.data.label}
+        </a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CategoryLanding from '../../components/CategoryLanding.astro';
+import { CATEGORIES } from '../../lib/categories';
+
+export function getStaticPaths() {
+  return CATEGORIES.map((category) => ({
+    params: { category: category.slug },
+    props: { category },
+  }));
+}
+
+const { category } = Astro.props;
+---
+
+<BaseLayout title={category.title} description={category.description}>
+  <CategoryLanding category={category} />
+</BaseLayout>

@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import StoryOfDay from '../components/StoryOfDay.astro';
+import PostCard from '../components/PostCard.astro';
+import { getPublishedStories } from '../lib/stories';
+
+const stories = await getPublishedStories();
+const recent = stories.slice(0, 9);
+---
+
+<BaseLayout title="Home" description="Homelab and cyber security projects, notes, and write-ups from James Wells.">
+  <StoryOfDay />
+  <section>
+    <h2>Recent Posts</h2>
+    <div class="card-grid">
+      {recent.map((story) => <PostCard story={story} />)}
+    </div>
+  </section>
+</BaseLayout>

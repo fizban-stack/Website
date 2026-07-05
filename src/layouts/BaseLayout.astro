@@ -1,0 +1,32 @@
+---
+import '../styles/global.css';
+import Sidebar from '../components/Sidebar.astro';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title} · James Wells</title>
+  </head>
+  <body>
+    <div class="layout">
+      <Sidebar />
+      <main id="main" class="main">
+        <slot />
+        <footer class="site-footer">© {year} James Wells. Built with Astro.</footer>
+      </main>
+    </div>
+  </body>
+</html>

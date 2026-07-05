@@ -1,0 +1,26 @@
+---
+import { storyHref, type Story } from '../lib/stories';
+
+interface Props {
+  story: Story;
+}
+
+const { story } = Astro.props;
+---
+
+<article class="post-card">
+  <a class="post-card__link" href={storyHref(story)}>
+    <img
+      class="post-card__image"
+      src={story.data.image}
+      alt={story.data.imageAlt}
+      width="400"
+      height="225"
+      loading="lazy"
+    />
+    <div class="post-card__body">
+      <h3 class="post-card__title">{story.data.title}</h3>
+      <p class="post-card__description">{story.data.description}</p>
+    </div>
+  </a>
+</article>

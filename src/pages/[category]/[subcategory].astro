@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { CATEGORIES } from '../../lib/categories';
+import { getStoriesFor } from '../../lib/stories';
+
+export function getStaticPaths() {
+  return CATEGORIES.flatMap((category) =>
+    category.subcategories.map((subcategory) => ({
+      params: { category: category.slug, subcategory: subcategory.slug },
+      props: { category, subcategory },
+    })),
+  );
+}
+
+const { category, subcategory } = Astro.props;
+const stories = await getStoriesFor(category.slug, subcategory.slug);
+---
+
+<BaseLayout title={`${subcategory.title} · ${category.title}`} description={subcategory.description}>
+  <header class="page-header">
+    <p class="page-header__eyebrow"><a href={`/${category.slug}/`}>{category.title}</a></p>
+    <h1>{subcategory.title}</h1>
+    <p>{subcategory.description}</p>
+  </header>
+  <div class="card-grid">
+    {stories.map((story) => <PostCard story={story} />)}
+  </div>
+  {stories.length === 0 && <p>No stories published yet — check back soon.</p>}
+</BaseLayout>
