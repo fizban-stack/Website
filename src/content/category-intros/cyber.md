@@ -3,7 +3,7 @@ title: Cyber
 ---
 
 This section covers my cyber security work — from professional experience to labs, personal
-projects, and tool walkthroughs. After years in construction and manufacturing, I pivoted
+projects, and tool walkthroughs. After a few years in construction and manufacturing, I pivoted
 into technology, stacked certifications while studying cybersecurity at Champlain College,
 and now work as an IT Security Professional managing Microsoft 365 tenants, Active Directory
 domains, and the security of a real organization.
