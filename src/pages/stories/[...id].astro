@@ -1,7 +1,7 @@
 ---
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getPublishedStories, parseStoryId } from '../../lib/stories';
+import { getPublishedStories, getStoryImage, parseStoryId } from '../../lib/stories';
 import { getCategory, getSubcategory } from '../../lib/categories';
 
 export async function getStaticPaths() {
@@ -17,6 +17,7 @@ const { Content } = await render(story);
 const { category: categorySlug, subcategory: subcategorySlug } = parseStoryId(story.id);
 const category = getCategory(categorySlug);
 const subcategory = getSubcategory(categorySlug, subcategorySlug);
+const image = getStoryImage(story);
 ---
 
 <BaseLayout title={story.data.title} description={story.data.description}>
@@ -27,8 +28,8 @@ const subcategory = getSubcategory(categorySlug, subcategorySlug);
     <h1>{story.data.title}</h1>
     <img
       class="story__image"
-      src={story.data.image}
-      alt={story.data.imageAlt}
+      src={image.src}
+      alt={image.alt}
       width="800"
       height="450"
     />

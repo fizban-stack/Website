@@ -2,8 +2,6 @@
 title: "Certification Sprint"
 description: "Failing the Pentest+ beta, bouncing back with HTB Academy, and stacking CompTIA certs before my student discount expired."
 pubDate: 2025-10-17
-image: "/images/stories/work-experience.svg"
-imageAlt: "Work Experience illustration"
 ---
 
 At the end of 2024, I took the beta test for the CompTIA Pentest+. I was not really prepared, but I thought I would give it a try anyways. This exam was the first cyber security certification test that I failed. Even though I wasn't overly confident going into the test, I still thought I could pass.

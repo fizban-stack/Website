@@ -2,8 +2,6 @@
 title: "My Home Lab Addiction"
 description: "Four years of homelab building — the money, the time, the broken networks, and why it has been worth every frustration."
 pubDate: 2025-10-11
-image: "/images/stories/family.svg"
-imageAlt: "Family illustration"
 ---
 
 I started building my home lab four years ago with an HP 210 Desktop PC. It was over 5 years old at the time and was barely running Windows anymore, so I converted it to TrueNAS Scale and began the journey down the rabbit hole of home labbing.

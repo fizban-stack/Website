@@ -1,19 +1,20 @@
 ---
-import { storyHref, type Story } from '../lib/stories';
+import { getStoryImage, storyHref, type Story } from '../lib/stories';
 
 interface Props {
   story: Story;
 }
 
 const { story } = Astro.props;
+const image = getStoryImage(story);
 ---
 
 <article class="post-card">
   <a class="post-card__link" href={storyHref(story)}>
     <img
       class="post-card__image"
-      src={story.data.image}
-      alt={story.data.imageAlt}
+      src={image.src}
+      alt={image.alt}
       width="400"
       height="225"
       loading="lazy"

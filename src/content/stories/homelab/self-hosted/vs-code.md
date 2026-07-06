@@ -2,8 +2,8 @@
 title: "VS Code Server"
 description: "Visual Studio Code running in the browser."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/vs-code.webp"
+imageAlt: "Browser-Based IDE"
 ---
 
 *Browser-Based IDE*

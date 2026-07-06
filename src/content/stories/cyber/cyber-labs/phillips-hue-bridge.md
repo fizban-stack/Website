@@ -2,8 +2,6 @@
 title: "Phillips Hue Bridge"
 description: "Discovering hidden HTTP and API endpoints on a Philips Hue Bridge through Wireshark packet analysis."
 pubDate: 2025-10-11
-image: "/images/stories/cyber-labs.svg"
-imageAlt: "Cyber Labs illustration"
 ---
 
 ![Hue Bridge](/images/stories/hue-bridge/hue-bridge.webp)

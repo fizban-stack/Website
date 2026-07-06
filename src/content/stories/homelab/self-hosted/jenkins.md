@@ -2,8 +2,8 @@
 title: "Jenkins"
 description: "Open-source automation server for CI/CD pipelines."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/jenkins.webp"
+imageAlt: "Automation Server"
 ---
 
 *Automation Server*

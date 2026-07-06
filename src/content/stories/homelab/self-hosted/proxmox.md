@@ -2,8 +2,8 @@
 title: "Proxmox Virtual Environment"
 description: "Open-source server virtualization management."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/proxmox.webp"
+imageAlt: "Enterprise Virtualization Platform"
 ---
 
 *Enterprise Virtualization Platform*

@@ -2,8 +2,6 @@
 title: "Proxmox Cyber Lab"
 description: "Building an isolated cyber lab in Proxmox with Windows domain controllers, Tailscale VPN access, and PowerShell AD management."
 pubDate: 2025-10-01
-image: "/images/stories/cyber-labs.svg"
-imageAlt: "Cyber Labs illustration"
 ---
 
 I have been working on recreating my cyber lab and I found a solution that I believe I will stick with. I have several VMs on Proxmox that are all connected to an internal network. I was using a Kali VM on Proxmox for all of my testing, but I wanted to be able to reach the cyber lab from different machines. I had been using Tailscale for my VPN for a while, but had never thought of using it for my cyber lab until today.

@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { RESOURCE_CATEGORIES } from '../../lib/resource-categories';
+import { getResourcesFor, resourceHref } from '../../lib/resources';
+
+const sections = await Promise.all(
+  RESOURCE_CATEGORIES.map(async (category) => ({
+    category,
+    resources: await getResourcesFor(category.slug),
+  })),
+);
+---
+
+<BaseLayout
+  title="Cybersecurity Resources"
+  description="Favorite YouTube channels, blogs, and podcasts for cybersecurity."
+>
+  <header class="page-header">
+    <h1>Cybersecurity Resources</h1>
+    <p>My favorite YouTube channels, blogs, and podcasts. Click a name for why I recommend it.</p>
+  </header>
+
+  {sections.map(({ category, resources }) => (
+    <section class="resource-section" id={category.slug}>
+      <h2>{category.title}</h2>
+      {resources.length > 0 ? (
+        <ul class="resource-links">
+          {resources.map((resource) => (
+            <li><a href={resourceHref(resource)}>{resource.data.title}</a></li>
+          ))}
+        </ul>
+      ) : (
+        <p>Nothing here yet — check back soon.</p>
+      )}
+    </section>
+  ))}
+</BaseLayout>

@@ -2,8 +2,8 @@
 title: "nextGBA"
 description: "Web-based Game Boy Advance emulator."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/nextgba.webp"
+imageAlt: "Game Boy Advance Emulator"
 ---
 
 *Game Boy Advance Emulator*

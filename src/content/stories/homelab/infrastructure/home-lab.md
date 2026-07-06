@@ -2,8 +2,6 @@
 title: "Home Lab"
 description: "How my homelab grew from a TrueNAS install on an old HP desktop to a multi-node Proxmox cluster with backup infrastructure."
 pubDate: 2025-08-10
-image: "/images/stories/infrastructure.svg"
-imageAlt: "Infrastructure illustration"
 ---
 
 When I began building my home lab, I had no idea how much it would help me out in certifications and at work. I have been able to use my home lab as a testing server to learn how to setup and configure different apps and services. In this post and subsequent posts I will detail how I ended up becoming an avid homelabber and any advice that I have for others thinking about pursuing a home lab.

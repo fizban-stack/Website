@@ -2,8 +2,8 @@
 title: "Jellyfin"
 description: "Free software media system for managing and streaming media."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/jellyfin.webp"
+imageAlt: "Free Media System"
 ---
 
 *Free Media System*

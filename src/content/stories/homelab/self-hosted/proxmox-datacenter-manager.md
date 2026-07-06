@@ -2,8 +2,8 @@
 title: "Proxmox Datacenter Manager"
 description: "Centralized management for multiple Proxmox clusters."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/proxmox-datacenter-manager.webp"
+imageAlt: "Centralized Cluster Management"
 ---
 
 *Centralized Cluster Management*

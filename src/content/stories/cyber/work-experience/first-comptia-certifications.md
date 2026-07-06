@@ -2,8 +2,6 @@
 title: "First CompTIA Certifications"
 description: "Passing the CompTIA Network+ and Security+ back to back and doubling down on building a cyber lab."
 pubDate: 2025-10-15
-image: "/images/stories/work-experience.svg"
-imageAlt: "Work Experience illustration"
 ---
 
 In June, I used my student email address to get a discount on the Network+ certification. I gave myself one month to study and prepare for the exam, but when it came time for my to take it, I was not overly confident. I had read the study guides a few time by this point and set up my own practice network at home.

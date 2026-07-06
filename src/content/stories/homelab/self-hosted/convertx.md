@@ -2,8 +2,8 @@
 title: "ConvertX"
 description: "Universal file format converter."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/convertx.webp"
+imageAlt: "File Conversion Service"
 ---
 
 *File Conversion Service*

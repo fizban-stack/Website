@@ -2,8 +2,8 @@
 title: "Apache Guacamole"
 description: "Clientless remote desktop gateway supporting VNC, RDP, and SSH."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/guacamole.webp"
+imageAlt: "Clientless Remote Desktop"
 ---
 
 *Clientless Remote Desktop*

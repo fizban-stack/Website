@@ -2,8 +2,6 @@
 title: "Wireshark"
 description: "Investigating mysterious WPAD traffic with Wireshark and learning about Windows Web Proxy Auto-Discovery on my home network."
 pubDate: 2025-10-20
-image: "/images/stories/tool-walkthroughs.svg"
-imageAlt: "Tool Walkthroughs illustration"
 ---
 
 I began using Wireshark at work a few months ago to help troubleshoot network issues. The first time I used it was to diagnose some DHCP issues. It took me about five minutes to figure out that someone had plugged in another Wi-Fi router thinking it would help with the internet speed in their group home.

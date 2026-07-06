@@ -2,8 +2,8 @@
 title: "Graylog"
 description: "Centralized log management and analysis."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/graylog.webp"
+imageAlt: "Log Management Platform"
 ---
 
 *Log Management Platform*

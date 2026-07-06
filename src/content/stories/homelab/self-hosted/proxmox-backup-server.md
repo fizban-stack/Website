@@ -2,8 +2,8 @@
 title: "Proxmox Backup Server"
 description: "Backup solution for VMs, containers, and physical hosts."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/proxmox-backup-server.webp"
+imageAlt: "Enterprise Backup Solution"
 ---
 
 *Enterprise Backup Solution*

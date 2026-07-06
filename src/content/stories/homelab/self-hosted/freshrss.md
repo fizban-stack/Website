@@ -2,8 +2,8 @@
 title: "FreshRSS"
 description: "Free and self-hostable RSS feed aggregator."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/freshrss.webp"
+imageAlt: "Self-Hosted RSS Aggregator"
 ---
 
 *Self-Hosted RSS Aggregator*

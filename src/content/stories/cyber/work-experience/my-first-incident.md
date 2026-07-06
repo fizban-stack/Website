@@ -2,8 +2,6 @@
 title: "My First Cyber Incident"
 description: "Waking up to Qilin ransomware alerts on a Sunday morning — encrypted servers, FBI reporting, and lessons from my first real incident."
 pubDate: 2025-10-19
-image: "/images/stories/work-experience.svg"
-imageAlt: "Work Experience illustration"
 ---
 
 ## The Alerts

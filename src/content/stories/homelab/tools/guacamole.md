@@ -2,8 +2,6 @@
 title: "Apache Guacamole"
 description: "Apache Guacamole as a centralized remote desktop gateway — VNC, RDP, and SSH access through a single web interface."
 pubDate: 2026-01-22
-image: "/images/stories/tools.svg"
-imageAlt: "Tools illustration"
 ---
 
 ## About Apache Guacamole

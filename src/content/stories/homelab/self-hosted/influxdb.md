@@ -2,8 +2,8 @@
 title: "InfluxDB"
 description: "Purpose-built time-series database for metrics and events."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/influxdb.webp"
+imageAlt: "Time-Series Database"
 ---
 
 *Time-Series Database*

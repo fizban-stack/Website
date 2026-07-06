@@ -2,8 +2,6 @@
 title: "Setting Up Jenkins for Automated Site Deployments"
 description: "Setting up Jenkins for automated GitHub Pages deployments with Forgejo webhooks and Nginx Proxy Manager."
 pubDate: 2026-01-24
-image: "/images/stories/tools.svg"
-imageAlt: "Tools illustration"
 ---
 
 ## What is Jenkins?

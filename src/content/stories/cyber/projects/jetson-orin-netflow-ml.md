@@ -2,11 +2,11 @@
 title: "Machine Learning Network Traffic Analysis with Nvidia Jetson Orin Nano Super"
 description: "Running ML-powered network traffic analysis on an NVIDIA Jetson Orin Nano Super — NetFlow collection and anomaly detection."
 pubDate: 2026-01-05
-image: "/images/stories/projects.svg"
-imageAlt: "Projects illustration"
 ---
 
 When I purchased the Nvidia Jetson Orin Nano Super developer kit, I wanted to explore practical machine learning applications for cybersecurity. Instead of running it with a desktop environment, I configured it as a headless server dedicated to analyzing network traffic using NetFlow data and machine learning models. This post documents my journey setting up an ML-powered network threat detection system.
+
+![Nvidia Jetson Orin Nano Super running headless](/images/stories/nvidia-jetson/device.webp)
 
 ## Why the Jetson Orin Nano?
 

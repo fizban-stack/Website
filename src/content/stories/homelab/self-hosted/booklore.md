@@ -2,8 +2,8 @@
 title: "Booklore"
 description: "Managing and Reading Ebooks and PDFs."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/booklore.webp"
+imageAlt: "Self-Hosted Ebook Management"
 ---
 
 *Self-Hosted Ebook Management*

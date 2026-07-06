@@ -11,8 +11,8 @@ const stories = defineCollection({
     title: z.string(),
     description: z.string(),
     pubDate: z.coerce.date(),
-    image: z.string(),
-    imageAlt: z.string(),
+    image: z.string().optional(),
+    imageAlt: z.string().optional(),
     draft: z.boolean().default(false),
   }),
 });
@@ -46,4 +46,24 @@ const contactLinks = defineCollection({
   }),
 });
 
-export const collections = { stories, about, categoryIntros, contactLinks };
+// Favorite external resources, organized on disk as
+// src/content/resources/<category>/<slug>.md, category one of
+// youtube/blogs/podcasts (see src/lib/resources.ts). The main resources page
+// only lists title + link so it stays browsable; each entry also gets its
+// own detail page with the write-up below.
+const resources = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/resources' }),
+  schema: z.object({
+    title: z.string(),
+    tagline: z.string().optional(),
+    description: z.string(),
+    website: z.string().url(),
+    github: z.string().url().optional(),
+    labType: z.string().optional(),
+    rssFeed: z.string().url().optional(),
+    image: z.string().optional(),
+    imageAlt: z.string().optional(),
+  }),
+});
+
+export const collections = { stories, about, categoryIntros, contactLinks, resources };

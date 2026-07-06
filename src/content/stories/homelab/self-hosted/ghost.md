@@ -2,8 +2,8 @@
 title: "Ghost"
 description: "Modern publishing platform for creating content."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/ghost.webp"
+imageAlt: "Professional Publishing Platform"
 ---
 
 *Professional Publishing Platform*

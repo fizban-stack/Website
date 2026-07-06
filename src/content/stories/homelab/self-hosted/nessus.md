@@ -2,8 +2,8 @@
 title: "Nessus"
 description: "Industry-leading vulnerability assessment solution."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/nessus.webp"
+imageAlt: "Vulnerability Scanner"
 ---
 
 *Vulnerability Scanner*

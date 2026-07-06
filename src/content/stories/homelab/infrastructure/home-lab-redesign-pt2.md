@@ -2,8 +2,6 @@
 title: "Home Lab Redesign pt. 2"
 description: "Network layout, IP address management tools, and the journey from sticky notes to phpIPAM to Netbox."
 pubDate: 2025-08-16
-image: "/images/stories/infrastructure.svg"
-imageAlt: "Infrastructure illustration"
 ---
 
 In the last post, I discussed the hardware that I am using. In this post, I will dive into the network layout, but first I want to discuss the various ways to keep track of network information. Once you get your network setup, it will be hard to keep track of what service is at which IP address. A reverse proxy helps to solve some of these issues, but then if the proxy goes down you are stuck trying to find the IP address again.

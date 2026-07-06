@@ -2,8 +2,8 @@
 title: "Ansible Semaphore"
 description: "Modern UI for Ansible automation."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/semaphore.webp"
+imageAlt: "Modern Ansible UI"
 ---
 
 *Modern Ansible UI*

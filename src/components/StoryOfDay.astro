@@ -1,14 +1,17 @@
 ---
-import { getPublishedStories, storyHref } from '../lib/stories';
+import { getPublishedStories, getStoryImage, storyHref } from '../lib/stories';
 
 const stories = await getPublishedStories();
-const pool = stories.map((story) => ({
-  title: story.data.title,
-  description: story.data.description,
-  image: story.data.image,
-  imageAlt: story.data.imageAlt,
-  href: storyHref(story),
-}));
+const pool = stories.map((story) => {
+  const image = getStoryImage(story);
+  return {
+    title: story.data.title,
+    description: story.data.description,
+    image: image.src,
+    imageAlt: image.alt,
+    href: storyHref(story),
+  };
+});
 ---
 
 {pool.length > 0 && (

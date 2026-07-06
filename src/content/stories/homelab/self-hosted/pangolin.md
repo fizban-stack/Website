@@ -2,8 +2,8 @@
 title: "Pangolin"
 description: "A security-focused self-hosted reverse proxy with built-in WireGuard support."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/pangolin.webp"
+imageAlt: "Reverse Proxy & Remote Access"
 ---
 
 *Reverse Proxy & Remote Access*

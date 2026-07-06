@@ -2,8 +2,8 @@
 title: "Karakeep"
 description: "Self-hosted bookmark and note management tool."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/karakeep.webp"
+imageAlt: "Bookmark and Note Manager"
 ---
 
 *Bookmark and Note Manager*

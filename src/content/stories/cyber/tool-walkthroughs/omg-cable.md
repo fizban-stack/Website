@@ -2,11 +2,11 @@
 title: "OMG Cable"
 description: "Hands-on with the Hak5 OMG Cable — firmware flashing, DuckyScript payloads, Wi-Fi configuration, and why physical security matters."
 pubDate: 2025-11-22
-image: "/images/stories/tool-walkthroughs.svg"
-imageAlt: "Tool Walkthroughs illustration"
 ---
 
 The USB Rubber Ducky was what first drew my attention to Hak5, but I just couldn't pay the price they wanted for one. I went the open source way and created a Bad USB using a Raspberry Pi Pico. The OMG cable was something that I am not advanced enough to create on my own. It is one of the stealthiest tools that I have seen. When I received it, I realized I had another cable that looked exactly the same. It is a good thing Hak5 sent a little orange clip to place on the cable so that I could tell them apart.
+
+![OMG Cable unboxed, alongside the programmer board and stickers](/images/stories/omg-cable/unboxing.webp)
 
 Upon opening the cable, I used the OMG Programmer and the Web Flasher to flash the firmware and make the cable usable. Afterwards I grabbed an extra Windows laptop and plugged the OMG Cable in. By default, the OMG cable acts as a hotspot creating its own network. After connecting to the OMG network, I opened a web browser and went to http://192.168.4.1. I was greeted with the OMG cable's web console.
 

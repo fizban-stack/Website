@@ -2,8 +2,6 @@
 title: "Wazuh"
 description: "Setting up Wazuh as a free open-source SIEM and XDR platform — agent deployment, log analysis, and vulnerability detection in my homelab."
 pubDate: 2025-10-20
-image: "/images/stories/tool-walkthroughs.svg"
-imageAlt: "Tool Walkthroughs illustration"
 ---
 
 ![Wazuh Dashboard](/images/stories/wazuh/wazuh.webp)

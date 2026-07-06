@@ -2,8 +2,8 @@
 title: "Zoraxy"
 description: "General purpose reverse proxy and forwarding tool."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/zoraxy.webp"
+imageAlt: "Reverse Proxy Manager"
 ---
 
 *Reverse Proxy Manager*

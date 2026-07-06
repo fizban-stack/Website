@@ -2,8 +2,6 @@
 title: "Velociraptor"
 description: "Deploying Velociraptor for endpoint visibility and forensics — VQL queries, MSI collectors, and artifact hunting."
 pubDate: 2026-02-15
-image: "/images/stories/tool-walkthroughs.svg"
-imageAlt: "Tool Walkthroughs illustration"
 ---
 
 Velociraptor is an open-source endpoint visibility and digital forensics tool built for incident response. It gives you the ability to dig into what is happening on endpoints across your environment by collecting artifacts, hunting for indicators of compromise, and monitoring activity in real time. Think of it as a way to ask very specific questions about what a machine has done, is doing, or has had done to it, and getting detailed answers back fast.

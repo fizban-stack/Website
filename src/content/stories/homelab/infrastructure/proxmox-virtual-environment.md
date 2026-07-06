@@ -2,8 +2,6 @@
 title: "Proxmox Virtual Environment"
 description: "My experience with Proxmox VE — from VirtualBox migration to CEPH clusters and back to a simpler multi-node setup."
 pubDate: 2025-10-21
-image: "/images/stories/infrastructure.svg"
-imageAlt: "Infrastructure illustration"
 ---
 
 Proxmox Virtual Environment (VE) is an open-source server management platform designed for enterprise virtualization. Based on Debian GNU/Linux, it allows you to easily manage virtual machines (VMs) and containers from a single, centralized web-based interface. It integrates two powerful virtualization technologies: KVM (Kernel-based Virtual Machine) for managing heavyweight, full-hardware virtual machines, and LXC (Linux Containers) for lightweight, operating-system-level virtualization.

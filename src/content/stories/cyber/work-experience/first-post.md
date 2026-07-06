@@ -2,8 +2,6 @@
 title: "1st Post"
 description: "My first blog post — on stepping out of my comfort zone as a father of three pursuing cybersecurity."
 pubDate: 2025-06-12
-image: "/images/stories/work-experience.svg"
-imageAlt: "Work Experience illustration"
 ---
 
 This is my first blog post and honestly I don't know how I feel about it. I am a more reserved person and have some social anxiety. I have a hard time being comfortable around anyone, but I need to put myself out into the world. I need to start living instead of just waking up, going through the motion, and going to sleep. I also need to show my children that there is a large world out there and if they are determined enough, they can do anything they want.

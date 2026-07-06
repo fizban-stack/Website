@@ -2,8 +2,8 @@
 title: "Paperless-ngx"
 description: "Scan, index, and archive all your physical documents."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/paperlessngx.webp"
+imageAlt: "Document Management System"
 ---
 
 *Document Management System*

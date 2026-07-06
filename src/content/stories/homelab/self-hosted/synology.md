@@ -2,8 +2,8 @@
 title: "Synology DSM"
 description: "Feature-rich NAS operating system."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/synology.webp"
+imageAlt: "NAS Operating System"
 ---
 
 *NAS Operating System*

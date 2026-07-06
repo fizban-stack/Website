@@ -2,8 +2,8 @@
 title: "Technitium DNS Server"
 description: "Self-hosted DNS server with web interface."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/technitium.webp"
+imageAlt: "Advanced DNS Server"
 ---
 
 *Advanced DNS Server*

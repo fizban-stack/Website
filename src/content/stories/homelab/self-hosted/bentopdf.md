@@ -2,8 +2,8 @@
 title: "BentoPDF"
 description: "Web-based PDF manipulation toolkit."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/bentopdf.webp"
+imageAlt: "PDF Tool Collection"
 ---
 
 *PDF Tool Collection*

@@ -2,8 +2,8 @@
 title: "Pulse"
 description: "Simple and elegant server monitoring dashboard."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/pulse.webp"
+imageAlt: "Server Monitoring Dashboard"
 ---
 
 *Server Monitoring Dashboard*

@@ -2,8 +2,8 @@
 title: "Audiobookshelf"
 description: "Self-hosted audiobook and podcast library manager."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/audiobookshelf.webp"
+imageAlt: "Audiobook and Podcast Server"
 ---
 
 *Audiobook and Podcast Server*

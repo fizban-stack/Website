@@ -2,8 +2,8 @@
 title: "Home Assistant"
 description: "Open-source home automation platform."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/home-assistant.webp"
+imageAlt: "Smart Home Automation"
 ---
 
 *Smart Home Automation*

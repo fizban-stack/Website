@@ -3,7 +3,7 @@ title: Achievements
 order: 3
 ---
 
-These are the certifications I have earned over the last few years, sorted by certifying body. Each listing links to the certification on Credly or the certifying body's website.
+These are the certifications I have earned over the last few years, sorted by certifying body. Each listing links to the certification on Credly or the certifying body's website. I never planned on getting any certifications, but as I started trying to enter the cyber security job market, I realized that I was going to have to do everything I could to prove my knowledge and worth to a company. I ended up spending more money than I wanted to, but it helped me to get my first security job. In the end, I think it was worth it and would do it all again.
 
 **CompTIA**
 

@@ -2,8 +2,6 @@
 title: "OPNsense"
 description: "OPNsense as my primary firewall — Suricata IDS/IPS, Unbound DNS, VLANs, and lessons learned from years of configuration."
 pubDate: 2026-01-07
-image: "/images/stories/infrastructure.svg"
-imageAlt: "Infrastructure illustration"
 ---
 
 ## Description

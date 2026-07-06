@@ -2,8 +2,6 @@
 title: "Ludus: Instant Cyber Labs on Proxmox"
 description: "Using Ludus to deploy instant cyber labs on Proxmox — templates, disposable VMs, and faster AD lab provisioning."
 pubDate: 2026-02-01
-image: "/images/stories/cyber-labs.svg"
-imageAlt: "Cyber Labs illustration"
 ---
 
 I have been using Proxmox for a few years now and my solution for deploying VMs for the first year was always to deploy VMs one at a time from scratch. Then I started using the following process:

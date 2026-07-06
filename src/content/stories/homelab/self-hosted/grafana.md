@@ -2,8 +2,8 @@
 title: "Grafana"
 description: "Data visualization and monitoring."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/grafana.webp"
+imageAlt: "Data Visualization Platform"
 ---
 
 *Data Visualization Platform*

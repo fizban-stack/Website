@@ -2,8 +2,8 @@
 title: "Web-check"
 description: "OSINT tool for analyzing websites."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/webcheck.webp"
+imageAlt: "Website Analysis Tool"
 ---
 
 *Website Analysis Tool*

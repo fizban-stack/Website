@@ -2,8 +2,8 @@
 title: "ChangeDetection.io"
 description: "Monitor websites for changes and get notified."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/changedetection.webp"
+imageAlt: "Website Change Monitor"
 ---
 
 *Website Change Monitor*

@@ -53,6 +53,7 @@ const isWithin = (href: string) => path === href || path.startsWith(href);
       </li>
     ))}
 
+    <li><a href="/resources/" class:list={[isWithin('/resources/') && 'is-active']}>Resources</a></li>
     <li><a href="/contact/" class:list={[isWithin('/contact/') && 'is-active']}>Contact</a></li>
   </ul>
 </nav>

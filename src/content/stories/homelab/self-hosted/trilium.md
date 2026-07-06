@@ -2,8 +2,8 @@
 title: "Trilium"
 description: "Hierarchical note-taking application."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/trilium.webp"
+imageAlt: "Hierarchical Note-Taking"
 ---
 
 *Hierarchical Note-Taking*

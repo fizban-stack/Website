@@ -2,8 +2,6 @@
 title: "Snipe-IT"
 description: "Using Snipe-IT for homelab asset management — tracking hardware, licenses, and product keys in one place."
 pubDate: 2025-12-31
-image: "/images/stories/tools.svg"
-imageAlt: "Tools illustration"
 ---
 
 I have tried out a couple of different inventory management systems from an Excel spreadsheet to Netbox. I enjoyed using Netbox, but felt like it was too much for a home lab. If I had a several server racks, it would have been the perfect system. The ability to map everything is amazing. You can map each connection on each server or switch in a server rack. This allows you to document everything and know exactly what each connection is. After using Netbox for a while, I found Snipe-IT.

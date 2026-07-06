@@ -2,8 +2,6 @@
 title: "Welcome to the Blog"
 description: "Welcome post for the blog — what to expect covering cybersecurity, homelab projects, and technology."
 pubDate: 2026-01-04
-image: "/images/stories/work-experience.svg"
-imageAlt: "Work Experience illustration"
 draft: true
 ---
 

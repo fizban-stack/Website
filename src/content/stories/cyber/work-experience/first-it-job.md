@@ -2,8 +2,6 @@
 title: "First IT Job"
 description: "Landing my first IT role at RBR Alliance — managing M365 tenants, Active Directory, and learning on the job."
 pubDate: 2025-10-16
-image: "/images/stories/work-experience.svg"
-imageAlt: "Work Experience illustration"
 ---
 
 After close to a year of applying for IT jobs with no success, I finally landed a role at a local non-profit, RBR Alliance. I was hired on in April 2024 as an IT assistant. My duties were basically to handle any tasks that my boss tasked me with.

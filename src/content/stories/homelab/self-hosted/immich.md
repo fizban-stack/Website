@@ -2,8 +2,8 @@
 title: "Immich"
 description: "High-performance photo and video backup solution."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/immich.webp"
+imageAlt: "Self-Hosted Photo Management"
 ---
 
 *Self-Hosted Photo Management*

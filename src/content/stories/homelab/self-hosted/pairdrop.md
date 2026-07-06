@@ -2,8 +2,8 @@
 title: "Pairdrop"
 description: "Cross-platform local file sharing in your browser."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/pairdrop.webp"
+imageAlt: "Local File Sharing"
 ---
 
 *Local File Sharing*

@@ -2,8 +2,8 @@
 title: "Forgejo"
 description: "GitHub Alternative"
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/forgejo.webp"
+imageAlt: "Self-Hosted Git Service"
 ---
 
 *Self-Hosted Git Service*

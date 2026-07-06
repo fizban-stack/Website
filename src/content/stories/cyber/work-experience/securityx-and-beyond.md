@@ -2,8 +2,6 @@
 title: "SecurityX and Beyond"
 description: "Passing the CompTIA SecurityX (formerly CASP+) and figuring out what comes next after earning every CompTIA cybersecurity cert."
 pubDate: 2025-08-10
-image: "/images/stories/work-experience.svg"
-imageAlt: "Work Experience illustration"
 ---
 
 After my last post, I thought to myself why not go ahead and take the SecurityX exam. I had a retest in case I failed, but I ended up not needing it. I wanted to attempt the exam and get some idea of what the questions looked like. I think that the momentum that is built by taking the lower level exams only makes the higher level exam easier.

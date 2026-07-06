@@ -2,8 +2,8 @@
 title: "CyberChef"
 description: "Web app for encryption, encoding, compression, and data analysis."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/cyberchef.webp"
+imageAlt: "The Cyber Swiss Army Knife"
 ---
 
 *The Cyber Swiss Army Knife*

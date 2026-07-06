@@ -2,8 +2,8 @@
 title: "Open WebUI + Ollama"
 description: "Self-hosted AI chat interface with local LLM support."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/open-webui-ollama.webp"
+imageAlt: "Local AI Chat Interface"
 ---
 
 *Local AI Chat Interface*

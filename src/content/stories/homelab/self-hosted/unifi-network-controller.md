@@ -2,8 +2,8 @@
 title: "UniFi Network Controller"
 description: "Centralized management for UniFi network devices."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/unifi-network-controller.webp"
+imageAlt: "Network Management Platform"
 ---
 
 *Network Management Platform*

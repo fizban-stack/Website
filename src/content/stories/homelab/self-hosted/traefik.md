@@ -2,8 +2,8 @@
 title: "Traefik"
 description: "Modern Cloud Native Reverse Proxy."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/traefik.webp"
+imageAlt: "Modern Reverse Proxy"
 ---
 
 *Modern Reverse Proxy*

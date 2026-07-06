@@ -2,8 +2,8 @@
 title: "Gotify"
 description: "Self-hosted push notification service."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/gotify.webp"
+imageAlt: "Simple Notification Server"
 ---
 
 *Simple Notification Server*

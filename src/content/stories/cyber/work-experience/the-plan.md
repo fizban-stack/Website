@@ -2,8 +2,6 @@
 title: "The Plan"
 description: "Enrolling at Champlain College, earning the ISC2 CC, Microsoft fundamentals, and building a certification roadmap."
 pubDate: 2025-10-15
-image: "/images/stories/work-experience.svg"
-imageAlt: "Work Experience illustration"
 ---
 
 It was now December 2022 and I had a plan coming together. At the time, I was trying to decide if I would be better off pursuing a bachelor's degree or certifications. There were several different opinions on this matter and I was not sure. Finally, I decided that I would do both. I was determined to commit all of my resources to this pursuit and willing to do anything to ensure I did not fail.

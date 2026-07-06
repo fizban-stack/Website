@@ -2,8 +2,8 @@
 title: "File Explorer Quantum"
 description: "Feature-rich web-based file browser and manager."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/file-explorer-quantum.webp"
+imageAlt: "Modern Web File Manager"
 ---
 
 *Modern Web File Manager*

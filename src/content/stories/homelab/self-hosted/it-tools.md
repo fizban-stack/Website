@@ -2,8 +2,8 @@
 title: "IT-Tools"
 description: "Collection of handy online tools for developers."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/it-tools.webp"
+imageAlt: "Developer Tools Collection"
 ---
 
 *Developer Tools Collection*

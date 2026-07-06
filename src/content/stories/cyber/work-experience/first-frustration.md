@@ -2,8 +2,6 @@
 title: "First Frustration"
 description: "A year of rejected job applications, zero callbacks, and the Michael Jordan quote taped to my bedroom door."
 pubDate: 2025-10-16
-image: "/images/stories/work-experience.svg"
-imageAlt: "Work Experience illustration"
 ---
 
 I had just obtained the Network+ and Security+ from CompTIA and I thought that I would at least be able to obtain an entry-level job at local companies. I was in for a rude awakening though.

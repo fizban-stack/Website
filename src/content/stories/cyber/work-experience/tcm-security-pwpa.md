@@ -2,8 +2,6 @@
 title: "TCM Security PWPA"
 description: "Taking the TCM Security PWPA exam after bombing the HTB CBBH — lessons on methodology, Burp Suite workflow, and bouncing back."
 pubDate: 2025-08-25
-image: "/images/stories/work-experience.svg"
-imageAlt: "Work Experience illustration"
 ---
 
 I bought a voucher for the PWPA a couple of months ago and have been practicing on their docker lab for a while now. Last weekend, I decided that I would go ahead and give the test a try. I had a retest so failing the first attempt would not be the worst thing. It would at least give me some practice and insight. This is the same approach that I took with the CompTIA exams and it worked for me then.

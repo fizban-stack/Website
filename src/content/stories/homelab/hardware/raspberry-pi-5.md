@@ -2,13 +2,13 @@
 title: "Raspberry Pi 5"
 description: "Setting up a Raspberry Pi 5 with PoE, NVMe SSD, Tailscale, and portable tools for on-the-go homelab access."
 pubDate: 2025-10-18
-image: "/images/stories/hardware.svg"
-imageAlt: "Hardware illustration"
 ---
 
 ## Initial Configuration
 
 This is a Raspberry Pi 5 that I setup to have access to tools no matter which network I attach it to. The Raspberry Pi is the 8GB model and I used a PoE hat that included the SSD slot.
+
+![Raspberry Pi 5 in its PoE/NVMe case](/images/stories/raspberry-pi-5/raspberry-pi5.webp)
 
 The first thing that I did was use Raspberry Pi Imager and image a nvme SSD with the Lite Raspberry Pi Linux. I added my SSH settings into the image during the flashing process. This ensured that once I had the IP address, I could connect remotely to it without every hooking up a monitor or keyboard.
 

@@ -2,8 +2,6 @@
 title: "Graylog"
 description: "Deploying Graylog as a centralized syslog server at work — Docker Compose setup, input configuration, and custom extractors for OPNsense."
 pubDate: 2025-12-25
-image: "/images/stories/tool-walkthroughs.svg"
-imageAlt: "Tool Walkthroughs illustration"
 ---
 
 I am setting up a new syslog server at work and I decided that Graylog would work well for us. We are a medium sized non-profit and this is the first syslog server that they have ever implemented. I have setup Graylog in a test environment before, but it has been several years. I am writing this blog post so that I will have documentation for myself. I might also save a copy of just the instructions so that there is documentation at work.

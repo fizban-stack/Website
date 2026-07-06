@@ -2,8 +2,6 @@
 title: "Personal AI Infrastructure"
 description: "How Daniel Miessler's Personal AI Infrastructure concept changed the way I use Claude Code — structured memory, planning, and self-improving sessions."
 pubDate: 2026-02-28
-image: "/images/stories/tools.svg"
-imageAlt: "Tools illustration"
 ---
 
 When I first listened to Daniel Miessler talk about TALOS and PAI, I thought that he was just trying to fill a niche need. I knew who he was and took him seriously for that reason, but did not intend to try either project. Then one Saturday, that all changed.

@@ -1,0 +1,55 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getResources, getResourceImage, parseResourceId, resourceHref } from '../../../lib/resources';
+import { getResourceCategory } from '../../../lib/resource-categories';
+
+export async function getStaticPaths() {
+  const resources = await getResources();
+  return resources.map((resource) => {
+    const { category, slug } = parseResourceId(resource.id);
+    return {
+      params: { category, slug },
+      props: { resource },
+    };
+  });
+}
+
+const { resource } = Astro.props;
+const { Content } = await render(resource);
+const { category: categorySlug } = parseResourceId(resource.id);
+const category = getResourceCategory(categorySlug);
+const image = getResourceImage(resource);
+---
+
+<BaseLayout title={resource.data.title} description={resource.data.description}>
+  <article class="story">
+    <p class="page-header__eyebrow">
+      <a href="/resources/">Resources</a> / <a href={`/resources/#${categorySlug}`}>{category?.title}</a>
+    </p>
+    <h1>{resource.data.title}</h1>
+    {resource.data.tagline && (
+      <p class="resource-tagline">
+        {resource.data.tagline}
+        {resource.data.labType && <> · {resource.data.labType}</>}
+      </p>
+    )}
+    <img
+      class="story__image"
+      src={image.src}
+      alt={image.alt}
+      width="800"
+      height="450"
+    />
+    <div class="prose">
+      <Content />
+    </div>
+    <p>
+      <a href={resource.data.website}>Visit website →</a>
+      {resource.data.github && resource.data.github !== resource.data.website && (
+        <> · <a href={resource.data.github}>GitHub</a></>
+      )}
+      {resource.data.rssFeed && <> · <a href={resource.data.rssFeed}>RSS feed</a></>}
+    </p>
+  </article>
+</BaseLayout>

@@ -2,8 +2,8 @@
 title: "Snipe-IT"
 description: "Open-source IT asset management system."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/snipeit.webp"
+imageAlt: "IT Asset Management"
 ---
 
 *IT Asset Management*

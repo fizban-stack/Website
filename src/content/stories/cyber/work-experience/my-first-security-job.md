@@ -2,8 +2,6 @@
 title: "My First Security Job"
 description: "Transitioning from IT assistant to IT Security Professional — deploying Meraki firewalls, M365 conditional access, and Graylog."
 pubDate: 2025-11-30
-image: "/images/stories/work-experience.svg"
-imageAlt: "Work Experience illustration"
 ---
 
 ## Firewall

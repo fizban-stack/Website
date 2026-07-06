@@ -2,8 +2,8 @@
 title: "SearXNG"
 description: "Privacy-respecting metasearch engine."
 pubDate: 2025-06-12
-image: "/images/stories/self-hosted.svg"
-imageAlt: "Self-Hosted illustration"
+image: "/images/stories/self-hosted/searxng.webp"
+imageAlt: "Privacy-Respecting Metasearch"
 ---
 
 *Privacy-Respecting Metasearch*
