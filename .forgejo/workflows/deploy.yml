@@ -21,6 +21,14 @@ jobs:
         with:
           node-version: 22
 
+      - name: Install rsync
+        run: |
+          if command -v apt-get >/dev/null; then apt-get update && apt-get install -y rsync openssh-client
+          elif command -v apk >/dev/null; then apk add --no-cache rsync openssh-client
+          elif command -v yum >/dev/null; then yum install -y rsync openssh-clients
+          else echo "No known package manager found to install rsync" >&2; exit 1
+          fi
+
       - name: Install dependencies
         run: npm ci
 
