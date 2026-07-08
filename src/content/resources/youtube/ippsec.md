@@ -8,22 +8,8 @@ image: "/images/resources/youtube/ippsec.webp"
 imageAlt: "IppSec logo"
 ---
 
-IppSec is widely regarded as the best resource for learning practical penetration testing methodology. His uncut walkthroughs of Hack The Box machines demonstrate the real-world thought process of a red teamer, including troubleshooting and dead ends.
+IppSec is the channel I credit most with actually teaching me methodology instead of just answers. His Hack The Box walkthroughs are uncut, which means I see the dead ends, the wrong guesses, and the moments where he backtracks — that's far more valuable to me than a clean writeup, because it's what troubleshooting an actual engagement looks like. Watching how he decides what to try next when enumeration stalls taught me more about the thought process behind pentesting than any single technique did.
 
----
+His Active Directory content — Kerberos abuse, LDAP enumeration, AD Certificate Services attacks — lines up directly with the Bloodhound and Active Directory work I do in my own homelab. I'll watch him work through an AD box and then go test the same attack path against my own lab environment to make sure I actually understood it well enough to reproduce it, not just recognize it.
 
-## Channel Focus
-
-### Windows Exploitation
-- **Active Directory**: Extensive coverage of Kerberos, LDAP, and AD Certificate Services attacks.
-- **Privilege Escalation**: Techniques for moving from a standard user to Administrator/SYSTEM.
-
-### Linux Exploitation
-- **Misconfigurations**: Abusing SUID binaries, cron jobs, and weak file permissions.
-- **Web App Chains**: Chaining web vulnerabilities to gain shell access on the host server.
-
-### Methodology
-- **Enumeration**: How to effectively use Nmap, Gobuster, and other recon tools to find the attack surface.
-
-## Why Follow This Channel
-There is no better way to learn the "muscle memory" of penetration testing than watching IppSec break down a machine.
+What I get out of IppSec, more than any specific exploit, is muscle memory: a default enumeration process I run automatically now, and the patience to keep working a target methodically instead of jumping straight to guessing.

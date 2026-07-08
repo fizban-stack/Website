@@ -8,22 +8,8 @@ image: "/images/resources/youtube/insiderphd.webp"
 imageAlt: "InsiderPhD logo"
 ---
 
-Katie Paxton-Fear (InsiderPhD) offers a unique perspective by combining academic rigor with practical bug bounty hunting. She is the go-to resource for learning API hacking and finding business logic errors that automated scanners miss.
+Katie Paxton-Fear's channel fills a gap that most of my other resources don't touch: business logic. I can run a scanner and get a list of missing headers and outdated libraries all day, but IDORs and BOLA issues in an API only show up when someone actually thinks through what a request *should* be allowed to do versus what the server actually checks — and InsiderPhD is the best teacher I've found for that specific kind of thinking.
 
----
+She also bridges academia and practice in a way I find genuinely useful, since a lot of her content is built around methodology — how to take notes, structure recon on an unfamiliar API, and work a target systematically instead of poking around randomly. That's less about a specific vulnerability class and more about building a repeatable process, which is something I've tried to carry into my own testing habits.
 
-## Channel Focus
-
-### API Security
-- **IDOR**: Insecure Direct Object References in REST and GraphQL APIs.
-- **BOLA**: Broken Object Level Authorization.
-
-### Business Logic
-- **Workflows**: Testing multi-step processes for bypasses.
-- **Privilege Escalation**: Horizontal and vertical privilege escalation.
-
-### Education
-- **Methodology**: How to take notes, organize data, and approach a new target systematically.
-
-## Why Follow This Channel
-If you want to find bugs that tools cannot find, you need to learn the logic-focused approach taught here.
+The benefit for me is confidence in the parts of an assessment that don't have a tool for them. Automated scanning covers the low-hanging fruit; InsiderPhD is where I learned that the more interesting bugs are usually sitting in the workflow logic no scanner was ever going to catch.

@@ -8,18 +8,8 @@ image: "/images/resources/youtube/black-hat.webp"
 imageAlt: "Black Hat logo"
 ---
 
-The Black Hat channel hosts the recordings of the world's most corporate-facing, high-impact security conference. This is where researchers release new vulnerabilities that often affect global infrastructure.
+Black Hat is where I go to zoom out. Most of what I watch day-to-day is hands-on and machine-scale — a box, a webapp, a lab. Black Hat talks operate at a completely different altitude: researchers presenting attacks against cloud providers, supply chains, and critical infrastructure that affect millions of systems at once. Watching those talks keeps me from getting tunnel vision on individual techniques and reminds me what "impact" actually means at an enterprise or national scale.
 
----
+The benefit I get isn't usually a technique I can copy into my homelab the next day — it's context. When a new CVE or attack class breaks, I've often already seen the underlying research explained properly at Black Hat, so I understand why it matters instead of just reacting to the headline. It also exposes me to the defensive side of the conversation, since a lot of talks are framed around what CISOs and blue teams need to do in response, which balances out how much of my other viewing is offense-focused.
 
-## Channel Focus
-
-### Corporate Security
-- **Infrastructure**: Attacks on cloud providers, supply chains, and critical infrastructure.
-- **Defense**: Strategies for CISOs and Blue Teams to mitigate emerging threats.
-
-### Cutting Edge Research
-- **New Vectors**: The first public disclosures of attacks on cars, satellites, and medical devices.
-
-## Why Follow This Channel
-To stay ahead of the curve on macro-level security trends and high-end research.
+Over time it's shaped how I think about scope: the difference between finding a bug and understanding what that bug means for an organization that depends on the system it's in.

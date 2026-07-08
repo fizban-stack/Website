@@ -8,22 +8,8 @@ image: "/images/resources/youtube/liveoverflow.webp"
 imageAlt: "LiveOverflow logo"
 ---
 
-LiveOverflow provides an essential resource for understanding the "why" behind vulnerabilities. Rather than just showing how to use tools, this channel deconstructs binaries, protocols, and code to teach the fundamental principles of hacking.
+Most of what I watch teaches me how to run an attack; LiveOverflow is where I go to learn why it works in the first place. Rather than showing me which tool to run against a buffer overflow, he'll walk through the actual memory layout and explain exactly why the corruption happens — and that root-cause understanding is what lets me adapt when a technique doesn't work out of the box, instead of being stuck if the exact conditions from a tutorial don't match what I'm looking at.
 
----
+His reverse engineering content, working through binaries in Ghidra and IDA, is the closest thing I have to a low-level education outside of formal coursework. It's slower and more demanding than most of what I watch, but it's the channel that actually explains the fundamentals — how memory, protocols, and compiled code really behave — that everything else I do assumes I already know.
 
-## Channel Focus
-
-### Binary Exploitation
-- **Memory Corruption**: Detailed analysis of buffer overflows, heap exploitation, and format string vulnerabilities.
-- **Reverse Engineering**: Using tools like Ghidra and IDA Pro to disassemble and understand closed-source software.
-
-### Capture The Flag (CTF)
-- **Problem Solving**: Walkthroughs of high-level CTF challenges that require novel exploitation techniques.
-- **Game Hacking**: Exploring anti-cheat mechanisms and game logic flaws.
-
-### Hardware & Low-Level
-- **CPU Vulnerabilities**: Explaining complex hardware bugs like Spectre, Meltdown, and Zenbleed.
-
-## Why Follow This Channel
-LiveOverflow is crucial for anyone who wants to move beyond "script kiddie" status and understand the root causes of security failures.
+The benefit is depth. LiveOverflow is what keeps me from being someone who can only follow a known exploit chain; it's where I built the foundation to reason about a new vulnerability class from first principles instead of pattern-matching to something I've seen before.

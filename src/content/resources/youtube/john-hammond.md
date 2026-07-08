@@ -8,22 +8,8 @@ image: "/images/resources/youtube/john-hammond.webp"
 imageAlt: "John Hammond logo"
 ---
 
-John Hammond bridges the gap between beginner-friendly tutorials and advanced security research. He is known for rapidly analyzing and demonstrating new CVEs as they are released, providing the community with immediate technical context.
+John Hammond is my early-warning system. When a new CVE breaks — a Log4j, a Follina, a MoveIT — he tends to have a working demonstration up within days, and watching him build a proof of concept from the raw advisory teaches me how to read a vulnerability report and actually reason about exploitability, not just wait for someone else to hand me a script.
 
----
+His malware analysis content is the other half of the value for me. Watching him unpack an obfuscated script or walk through a supply-chain-compromised package gives me a much better sense of what to look for when I'm reviewing something suspicious myself, and it connects naturally to the detection side of my homelab — knowing what malicious code actually looks like before it hits my Wazuh alerts makes those alerts mean something instead of just being noise.
 
-## Channel Focus
-
-### Malware Analysis
-- **Unpacking**: Techniques for de-obfuscating malicious scripts and binaries.
-- **Threat Intel**: Monitoring the dark web and hacker forums for emerging threats.
-
-### Emerging Threats
-- **Zero-Day Analysis**: Rapid breakdowns of high-profile vulnerabilities (e.g., Log4j, Follina, MoveIT).
-- **Supply Chain Attacks**: Investigating compromised packages in NPM, PyPI, and Docker Hub.
-
-### CTF & Education
-- **Competitions**: Walkthroughs of major CTF events like PicoCTF and NahamCon.
-
-## Why Follow This Channel
-To stay current with the immediate threats facing the industry and see new CVEs demonstrated in practice within days of discovery.
+He's also just an easy entry point for CTF and general education content, which makes him the channel I point to first when I want a quick, current, technically accurate take on whatever's making news that week.
