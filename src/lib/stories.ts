@@ -30,6 +30,13 @@ export function storyHref(story: Story): string {
 // in a story's body when no image is set explicitly in frontmatter.
 const INLINE_IMAGE = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/;
 
+// A few subcategories have a dedicated photo instead of the generic SVG
+// illustration used as the default fallback below.
+const SUBCATEGORY_IMAGE_OVERRIDES: Record<string, string> = {
+  'cyber-labs': '/cyberlab.webp',
+  'work-experience': '/work-experience.webp',
+};
+
 // Stories can specify an explicit `image`/`imageAlt` in frontmatter to
 // override the default. Otherwise, the first image embedded in the body is
 // used, falling back to a generic per-subcategory illustration.
@@ -46,7 +53,7 @@ export function getStoryImage(story: Story): StoryImage {
   const { category, subcategory } = parseStoryId(story.id);
   const subcategoryTitle = getSubcategory(category, subcategory)?.title ?? subcategory;
   return {
-    src: `/images/stories/${subcategory}.svg`,
+    src: SUBCATEGORY_IMAGE_OVERRIDES[subcategory] ?? `/images/stories/${subcategory}.svg`,
     alt: story.data.imageAlt ?? `${subcategoryTitle} illustration`,
   };
 }
